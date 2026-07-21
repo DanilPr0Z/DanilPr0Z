@@ -34,7 +34,7 @@
 <br/>
 
 <p align="center">
-  <img src="https://github-readme-stats-steel-nine.vercel.app/api?username=DanilPr0Z&show_icons=true&count_private=true&include_all_commits=true&hide_border=true&locale=ru&theme=tokyonight&rank_icon=percentile" alt="Статистика GitHub" />
+  <img src="https://github-readme-stats-steel-nine.vercel.app/api?username=DanilPr0Z&show_icons=true&count_private=true&include_all_commits=true&hide_border=true&locale=ru&theme=tokyonight&rank_icon=percentile&cache=1" alt="Статистика GitHub" />
 </p>
 
 <p align="center">
