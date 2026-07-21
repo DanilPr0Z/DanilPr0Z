@@ -42,7 +42,7 @@
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com/?user=DanilPr0Z&theme=tokyonight&hide_border=true&background=00000000&locale=ru&v=4" alt="Стрик" />
+  <img src="https://streak-stats.demolab.com/?user=DanilPr0Z&theme=tokyonight&hide_border=true&background=00000000&locale=ru&v=5" alt="Стрик" />
 </p>
 
 <p align="center">
