@@ -1,19 +1,34 @@
 <h1 align="center">
-  🐉 Danil <span style="color:#888">/</span> experienced coder
+  🐉 DanilPr0Z <span style="color:#888">/</span> experienced coder
 </h1>
 
 <p align="center">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=py,java,ts,js,html,css,rust,swift&theme=dark" />
-  </a>
-  <br/>
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=git,docker,postgres,mysql,django,fastapi,nodejs&theme=dark" />
-  </a>
-  <br/>
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=pycharm,webstorm,clion,idea,vscode&theme=dark" />
-  </a>
+  <img src="https://skillicons.dev/icons?i=py&theme=dark" height="48" alt="python" />&nbsp;&nbsp;
+  <img src="https://skillicons.dev/icons?i=java&theme=dark" height="48" alt="java" />&nbsp;&nbsp;
+  <img src="https://skillicons.dev/icons?i=ts&theme=dark" height="48" alt="typescript" />&nbsp;&nbsp;
+  <img src="https://skillicons.dev/icons?i=js&theme=dark" height="48" alt="javascript" />&nbsp;&nbsp;
+  <img src="https://skillicons.dev/icons?i=html&theme=dark" height="48" alt="html" />&nbsp;&nbsp;
+  <img src="https://skillicons.dev/icons?i=css&theme=dark" height="48" alt="css" />&nbsp;&nbsp;
+  <img src="https://skillicons.dev/icons?i=rust&theme=dark" height="48" alt="rust" />&nbsp;&nbsp;
+  <img src="https://skillicons.dev/icons?i=swift&theme=dark" height="48" alt="swift" />
+</p>
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=git&theme=dark" height="48" alt="git" />&nbsp;&nbsp;
+  <img src="https://skillicons.dev/icons?i=docker&theme=dark" height="48" alt="docker" />&nbsp;&nbsp;
+  <img src="https://skillicons.dev/icons?i=postgres&theme=dark" height="48" alt="postgres" />&nbsp;&nbsp;
+  <img src="https://skillicons.dev/icons?i=mysql&theme=dark" height="48" alt="mysql" />&nbsp;&nbsp;
+  <img src="https://skillicons.dev/icons?i=django&theme=dark" height="48" alt="django" />&nbsp;&nbsp;
+  <img src="https://skillicons.dev/icons?i=fastapi&theme=dark" height="48" alt="fastapi" />&nbsp;&nbsp;
+  <img src="https://skillicons.dev/icons?i=nodejs&theme=dark" height="48" alt="nodejs" />
+</p>
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=pycharm&theme=dark" height="48" alt="pycharm" />&nbsp;&nbsp;
+  <img src="https://skillicons.dev/icons?i=webstorm&theme=dark" height="48" alt="webstorm" />&nbsp;&nbsp;
+  <img src="https://skillicons.dev/icons?i=clion&theme=dark" height="48" alt="clion" />&nbsp;&nbsp;
+  <img src="https://skillicons.dev/icons?i=idea&theme=dark" height="48" alt="intellij idea" />&nbsp;&nbsp;
+  <img src="https://skillicons.dev/icons?i=vscode&theme=dark" height="48" alt="vscode" />
 </p>
 
 <br/>
@@ -27,7 +42,7 @@
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=DanilPr0Z&theme=tokyonight&hide_border=true&locale=ru" alt="Стрик" />
+  <img src="https://streak-stats.demolab.com/?user=DanilPr0Z&theme=tokyonight&hide_border=true&locale=ru" alt="Стрик" />
 </p>
 
 <p align="center">
