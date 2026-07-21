@@ -38,11 +38,11 @@
 </p>
 
 <p align="center">
-  <img src="https://github-profile-trophy.danilpr0z.deno.net/?username=DanilPr0Z&theme=onedark&no-frame=true&no-bg=true&margin-w=4&column=8" alt="Трофеи" />
+  <img src="https://streak-stats.demolab.com/?user=DanilPr0Z&theme=tokyonight&hide_border=true&background=00000000&locale=ru&v=5" alt="Стрик" />
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com/?user=DanilPr0Z&theme=tokyonight&hide_border=true&background=00000000&locale=ru&v=5" alt="Стрик" />
+  <img src="https://github-profile-trophy.danilpr0z.deno.net/?username=DanilPr0Z&theme=onedark&no-frame=true&no-bg=true&margin-w=4&column=8" alt="Трофеи" />
 </p>
 
 <p align="center">
