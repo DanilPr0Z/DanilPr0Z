@@ -38,7 +38,7 @@
 </p>
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=DanilPr0Z&theme=onedark&no-frame=true&no-bg=true&margin-w=4&column=8" alt="Трофеи" />
+  <img src="https://github-profile-trophy.danilpr0z.deno.net/?username=DanilPr0Z&theme=onedark&no-frame=true&no-bg=true&margin-w=4&column=8" alt="Трофеи" />
 </p>
 
 <p align="center">
