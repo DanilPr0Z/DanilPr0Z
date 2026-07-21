@@ -1,0 +1,64 @@
+name: Refresh Camo Cache
+
+# Прогревает медленные origin-сервисы (стрик и т.п.), затем сбрасывает
+# кэш GitHub Camo, чтобы прокси перечитал уже свежие/быстрые картинки.
+# Ничего не коммитит — только внешние HTTP-запросы.
+
+on:
+  schedule:
+    - cron: "0 */6 * * *"   # каждые 6 часов
+  workflow_dispatch:
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Warm origins, then purge camo cache
+        env:
+          PROFILE_USER: ${{ github.repository_owner }}
+        run: |
+          set -uo pipefail
+
+          echo "Fetching profile page to collect camo URLs..."
+          html=$(curl -s -H "User-Agent: Mozilla/5.0" "https://github.com/${PROFILE_USER}")
+          urls=$(printf '%s' "$html" \
+            | grep -oE 'https://camo\.githubusercontent\.com/[^"'"'"' ]+' \
+            | sort -u)
+
+          if [ -z "$urls" ]; then
+            echo "::warning::No camo URLs found on the profile page."
+            exit 0
+          fi
+
+          count=$(printf '%s\n' "$urls" | grep -c . || true)
+          echo "Found $count camo image(s)."
+
+          printf '%s\n' "$urls" | while read -r cam; do
+            [ -z "$cam" ] && continue
+
+            # Раскодировать оригинальный URL из hex-хвоста camo-ссылки.
+            hex=${cam##*/}
+            origin=$(printf '%s' "$hex" | xxd -r -p 2>/dev/null || true)
+
+            # 1) Прогреть origin: бить, пока не ответит быстрее 3с
+            #    (у camo таймаут ~4с — иначе он закэширует 504).
+            if printf '%s' "$origin" | grep -q '^https\?://'; then
+              for i in 1 2 3 4 5 6; do
+                t=$(curl -s -o /dev/null -w "%{time_total}" --max-time 30 "$origin" || echo 99)
+                if awk "BEGIN{exit !($t < 3)}"; then
+                  echo "  warm ok (${t}s): $origin"
+                  break
+                fi
+                echo "  warming (${t}s), retry $i: $origin"
+                sleep 2
+              done
+            fi
+
+            # 2) Сбросить camo-кэш и сразу перечитать — camo подтянет
+            #    уже прогретый origin и закэширует свежую картинку.
+            pcode=$(curl -s -X PURGE -o /dev/null -w "%{http_code}" "$cam" || echo ERR)
+            gcode=$(curl -s -o /dev/null -w "%{http_code}" --max-time 30 "$cam" || echo ERR)
+            echo "  purge=$pcode reget=$gcode  ${origin:-$cam}"
+          done
+
+          echo "Done."
