@@ -34,17 +34,17 @@
 <br/>
 
 <p align="center">
-  <img src="https://github-readme-stats-steel-nine.vercel.app/api?username=DanilPr0Z&show_icons=true&count_private=true&include_all_commits=true&hide_border=true&locale=ru&theme=tokyonight&rank_icon=percentile&bg_color=00000000&custom_title=%D0%A1%D1%82%D0%B0%D1%82%D0%B8%D1%81%D1%82%D0%B8%D0%BA%D0%B0%20GitHub%20%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8F%20DanilPr0Z&cache=3" alt="Статистика GitHub" />
+  <img src="https://github-readme-stats-steel-nine.vercel.app/api?username=DanilPr0Z&show_icons=true&count_private=true&include_all_commits=true&hide_border=true&locale=ru&theme=tokyonight&rank_icon=percentile&bg_color=00000000&custom_title=%D0%A1%D1%82%D0%B0%D1%82%D0%B8%D1%81%D1%82%D0%B8%D0%BA%D0%B0%20GitHub%20%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8F%20DanilPr0Z&cache=3&v=2" alt="Статистика GitHub" />
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com/?user=DanilPr0Z&theme=tokyonight&hide_border=true&background=00000000&locale=ru&v=5" alt="Стрик" />
+  <img src="https://streak-stats.demolab.com/?user=DanilPr0Z&theme=tokyonight&hide_border=true&background=00000000&locale=ru&v=6" alt="Стрик" />
 </p>
 
 <p align="center">
-  <img src="https://github-profile-trophy.danilpr0z.deno.net/?username=DanilPr0Z&theme=onedark&no-frame=true&no-bg=true&margin-w=4&column=8" alt="Трофеи" />
+  <img src="https://github-profile-trophy.danilpr0z.deno.net/?username=DanilPr0Z&theme=onedark&no-frame=true&no-bg=true&margin-w=4&column=8&v=2" alt="Трофеи" />
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/DanilPr0Z/DanilPr0Z/output/github-contribution-grid-snake-dark.svg" alt="Змейка контрибуций" />
+  <img src="https://raw.githubusercontent.com/DanilPr0Z/DanilPr0Z/output/github-contribution-grid-snake-dark.svg?v=2" alt="Змейка контрибуций" />
 </p>
