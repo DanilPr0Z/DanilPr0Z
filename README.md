@@ -12,7 +12,6 @@
   <img src="https://skillicons.dev/icons?i=rust&theme=dark" height="48" alt="rust" />&nbsp;&nbsp;
   <img src="https://skillicons.dev/icons?i=swift&theme=dark" height="48" alt="swift" />
 </p>
-
 <p align="center">
   <img src="https://skillicons.dev/icons?i=git&theme=dark" height="48" alt="git" />&nbsp;&nbsp;
   <img src="https://skillicons.dev/icons?i=docker&theme=dark" height="48" alt="docker" />&nbsp;&nbsp;
@@ -22,7 +21,6 @@
   <img src="https://skillicons.dev/icons?i=fastapi&theme=dark" height="48" alt="fastapi" />&nbsp;&nbsp;
   <img src="https://skillicons.dev/icons?i=nodejs&theme=dark" height="48" alt="nodejs" />
 </p>
-
 <p align="center">
   <img src="https://skillicons.dev/icons?i=pycharm&theme=dark" height="48" alt="pycharm" />&nbsp;&nbsp;
   <img src="https://skillicons.dev/icons?i=webstorm&theme=dark" height="48" alt="webstorm" />&nbsp;&nbsp;
@@ -30,13 +28,10 @@
   <img src="https://skillicons.dev/icons?i=idea&theme=dark" height="48" alt="intellij idea" />&nbsp;&nbsp;
   <img src="https://skillicons.dev/icons?i=vscode&theme=dark" height="48" alt="vscode" />
 </p>
-
 <br/>
-
 <p align="center">
   <img src="https://github-readme-stats-steel-nine.vercel.app/api?username=DanilPr0Z&show_icons=true&count_private=true&include_all_commits=true&hide_border=true&locale=ru&theme=tokyonight&rank_icon=percentile&bg_color=00000000&custom_title=%D0%A1%D1%82%D0%B0%D1%82%D0%B8%D1%81%D1%82%D0%B8%D0%BA%D0%B0%20GitHub%20%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8F%20DanilPr0Z&cache=3&v=2" alt="Статистика GitHub" />
 </p>
-
 <p align="center">
   <img src="https://streak-stats.demolab.com/?user=DanilPr0Z&theme=tokyonight&hide_border=true&background=00000000&locale=ru&v=6" alt="Стрик" />
 </p>
